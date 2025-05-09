@@ -17,10 +17,8 @@ end
 function apply_theme()
     local theme = get_system_theme()
     if theme == "light" then
-        mp.set_property("osd-color", "0.0/0.0/0.0/1.0") -- black
         mp.set_property("sub-color", "0.0/0.0/0.0/1.0")
     else
-        mp.set_property("osd-color", "1.0/1.0/1.0/1.0") -- white
         mp.set_property("sub-color", "1.0/1.0/1.0/1.0")
     end
 end
